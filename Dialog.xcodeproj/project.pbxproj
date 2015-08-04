@@ -411,6 +411,7 @@
 				34AFB56F1B704BFF006DDCF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34AFB5701B704BFF006DDCF8 /* Build configuration list for PBXNativeTarget "DialogTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +420,7 @@
 				34AFB5721B704BFF006DDCF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
