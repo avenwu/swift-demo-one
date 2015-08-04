@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -26,19 +26,19 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="石头" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iae-1n-AOh">
-                                        <rect key="frame" x="120" y="81" width="60" height="36.5"/>
+                                        <rect key="frame" x="120" y="82" width="60" height="36"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="win:sssss" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0F-sM-ODx">
-                                        <rect key="frame" x="0.0" y="0.0" width="42" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="win:ssssss" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="A0F-sM-ODx">
+                                        <rect key="frame" x="0.0" y="0.0" width="99" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="win:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQS-GH-79p">
-                                        <rect key="frame" x="158" y="0.0" width="42" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="win:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="0.0" translatesAutoresizingMaskIntoConstraints="NO" id="EQS-GH-79p">
+                                        <rect key="frame" x="99" y="0.0" width="101" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -55,15 +55,29 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstItem="EQS-GH-79p" firstAttribute="leading" secondItem="A0F-sM-ODx" secondAttribute="trailing" id="1oV-hy-fCJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="EQS-GH-79p" secondAttribute="trailing" id="5ih-Ec-4VL"/>
+                                    <constraint firstItem="A0F-sM-ODx" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="tEy-Wo-S5a" secondAttribute="bottom" constant="-120" id="BIY-Nh-In8"/>
                                     <constraint firstAttribute="width" constant="200" id="GNJ-b9-iFI"/>
+                                    <constraint firstItem="A0F-sM-ODx" firstAttribute="top" secondItem="tEy-Wo-S5a" secondAttribute="top" id="GgW-Jp-9Z4"/>
+                                    <constraint firstItem="EQS-GH-79p" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="tEy-Wo-S5a" secondAttribute="bottom" constant="-120" id="IrG-dl-IPK"/>
                                     <constraint firstAttribute="centerY" secondItem="iae-1n-AOh" secondAttribute="centerY" id="MDt-d7-fcM"/>
+                                    <constraint firstItem="EQS-GH-79p" firstAttribute="leading" secondItem="tEy-Wo-S5a" secondAttribute="leading" constant="99" id="RgZ-bh-fQU"/>
                                     <constraint firstItem="iae-1n-AOh" firstAttribute="height" secondItem="EOB-5C-vGW" secondAttribute="height" id="TP7-E4-Yr9"/>
                                     <constraint firstItem="iae-1n-AOh" firstAttribute="width" secondItem="EOB-5C-vGW" secondAttribute="width" id="XU1-Hd-u27"/>
                                     <constraint firstItem="EOB-5C-vGW" firstAttribute="leading" secondItem="tEy-Wo-S5a" secondAttribute="leading" constant="20" id="aiO-fE-jn7"/>
+                                    <constraint firstItem="EQS-GH-79p" firstAttribute="width" secondItem="A0F-sM-ODx" secondAttribute="width" id="dPM-hs-pfI"/>
                                     <constraint firstAttribute="trailing" secondItem="iae-1n-AOh" secondAttribute="trailing" constant="20" id="dgs-SC-XwC"/>
                                     <constraint firstAttribute="centerY" secondItem="EOB-5C-vGW" secondAttribute="centerY" id="dir-nO-xKG"/>
+                                    <constraint firstItem="EQS-GH-79p" firstAttribute="top" secondItem="tEy-Wo-S5a" secondAttribute="top" id="fJh-0d-go3"/>
+                                    <constraint firstItem="A0F-sM-ODx" firstAttribute="leading" secondItem="tEy-Wo-S5a" secondAttribute="leading" id="hMX-qm-V87"/>
                                     <constraint firstAttribute="height" constant="200" id="ijr-n5-v3f"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="dPM-hs-pfI"/>
+                                    </mask>
+                                </variation>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
